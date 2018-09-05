@@ -24,7 +24,7 @@ public class WebSiteChecker {
 		String cwd = System.getProperty("user.dir");
 		System.out.println("Current working directory " + cwd);
 		String pathToMalwareFile = cwd + File.separator + "malware_domain.txt";
-		String pathToPornFile = cwd + File.separator + "porn_domain.txt";
+		String pathToPornFile = cwd + File.separator + "adult_domain.txt";
 
 		// read from the malware domain list and add to the host cache
 		FileInputStream in = new FileInputStream(pathToMalwareFile);

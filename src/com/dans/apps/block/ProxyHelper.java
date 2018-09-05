@@ -72,9 +72,9 @@ public class ProxyHelper {
 		Long connectionTime = endTime-startTime;
 		
 		Long time= TimeUnit.SECONDS.convert(connectionTime, TimeUnit.NANOSECONDS);
-		System.out.println("Connection to the remote server initiated ( connection time : "+connectionTime+") nanoseconds");
+		//System.out.println("Connection to the remote server initiated ( connection time : "+connectionTime+") nanoseconds");
 		
-		System.out.println();
+		//System.out.println();
 		
 		InputStream serverInputStream = serverSocket.getInputStream();
 		OutputStream serverOutPutStream = serverSocket.getOutputStream();
